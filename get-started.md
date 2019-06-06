@@ -8,7 +8,7 @@ Currently, Topogram is available as a service at [app.topogram.io](http://app.to
 
 To visualize our data with Topogram, we need to upload it first into the database. For this, we will use the dedicated [Python API client](https://github.com/topogram/topogram-api-client). Let's install first the library using `pip`.
 
-    pip install topogram-api-client
+    pip install git+https://github.com/topogram/topogram-api-client
 
 ## Get some data
 
